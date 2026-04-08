@@ -1,48 +1,62 @@
-# agilesync-pro
+# 📊 Sistema de Gerenciamento de Fluxo
 
-This template should help get you started developing with Vue 3 in Vite.
+> Uma solução robusta de gestão visual estilo Kanban para controle operacional de alta performance.
 
-## Recommended IDE Setup
+Este projeto transcende uma simples lista de tarefas, oferecendo um ecossistema completo para monitoramento de fluxos de trabalho, análise de prazos críticos e visualização de dados em tempo real.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🛠️ Stack Tecnológica
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+| Camada | Tecnologia |
+| :--- | :--- |
+| **Framework** | [Vue.js 3](https://vuejs.org/) (Composition API) |
+| **Linguagem** | [TypeScript](https://www.typescriptlang.org/) (Strict Mode) |
+| **Estilização** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Estado** | [Pinia](https://pinia.vuejs.org/) |
+| **Persistência** | [VueUse](https://vueuse.org/) (Storage Engine) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🎯 Funcionalidades Premium
 
-## Customize configuration
+### 📋 Kanban Core
+- **Fluxo Dinâmico:** Movimentação fluida de tarefas entre estados (A Fazer, Fazendo, Concluído).
+- **Priorização Inteligente:** Categorização por níveis de criticidade com feedback visual imediato.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### ⏰ Controle de Prazos (Due Dates)
+- **Alertas Preditivos:** Identificação visual de tarefas que vencem no dia corrente.
+- **Overdue Detection:** Sistema de alerta crítico para tarefas com prazos expirados, garantindo que nada seja esquecido.
 
-## Project Setup
+### 📈 Analytics Dashboard
+- **Progress Tracking:** Barra de progresso dinâmica baseada na conclusão de tarefas.
+- **Estatísticas Rápidas:** Contador em tempo real de produtividade e volume de trabalho.
 
-```sh
-npm install
-```
+### ✏️ Gestão Completa (CRUD)
+- **Edição Avançada:** Interface intuitiva para modificação de registros existentes sem perda de contexto.
+- **Auto-Save:** Persistência automática no `LocalStorage`, garantindo a integridade dos dados mesmo após o fechamento do navegador.
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
+## 🎨 Interface e Experiência
+O sistema foi projetado com foco em **Dark Mode Ergonomics**, utilizando uma paleta de cores Slate e Indigo para reduzir a fadiga visual durante longas jornadas de trabalho, mantendo o contraste necessário para alertas críticos em Rose e Amber.
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## 🚀 Instalação e Uso
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/download/) instalados.
 
-```sh
-npm run test:unit
-```
+```bash
+# Clone o repositório
+$ git clone [https://github.com/joaolucasrodri01-sys/sistema-de-gerenciamento-de-fluxo](https://github.com/joaolucasrodri01-sys/sistema-de-gerenciamento-de-fluxo)
+
+# Entre na pasta
+$ cd sistema-de-gerenciamento-de-fluxo
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm run dev
